@@ -40,7 +40,7 @@ public class RecordService extends Service {
     private static final String SOCKET_NAME = "sndcpy";
 
 
-    private static final int SAMPLE_RATE = 48000;
+    private static final int SAMPLE_RATE = 96000;
     private static final int CHANNELS = 2;
 
     private final Handler handler = new ConnectionHandler(this);
